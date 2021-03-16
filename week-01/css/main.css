@@ -1,34 +1,46 @@
 body {
   padding: 4rem;
   white-space: nowrap;
+  display: flex;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+img {
+  width:600px;
+  height:500px;
 }
 
 .poem {
   display: flex;
   flex-direction: column;
-  padding: 0 20rem;
   justify-content: center;
   align-items: center;
 }
 
 .head {
   width: 50%;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
   cursor: pointer;
 }
 
 #title {
   text-align: left;
-  font-size: 3rem;
-  font-weight: 800;
+  font-size: 2.7rem;
+  font-weight: 550;
+  color: #ffadad;
+  
 }
 
 .text {
   width: 50%;
-  font-size: 1.125rem;
-  line-height: 2rem;
+  font-size: 1.7rem;
+  line-height: 2.3rem;
 }
 
 .flower+.flower {
   margin-bottom: 2.25rem;
+}
+
+p {
+  color:#52b788;
 }
