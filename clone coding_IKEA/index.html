@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKEA KOREA - IKEA</title>
+    <!-- 파비콘 설정-->
+    <link rel="icon" href="favicon/IKEA favicon.ico" />
+    <!-- 모든 웹 브라우저의 기본 스타일을 초기화 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <!-- main.css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- main.js 연결 -->
+    <script defer src="./js/main.js"></script>
+    <!-- 구글 폰트: main.css보다 먼저 불러올 수 있도록 한다 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <!-- Google material Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Font awesome Icon-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body> 
+    <div class="hnf-messages">
+        <ul>
+            <li><a href="https://www.ikea.com/kr/ko/customer-service/19-pubb5a65c23"><span class="material-icons">
+                info
+                </span>코로나19 대응 공지</a></li>
+            <li><a href="https://www.ikea.com/kr/ko/customer-service/services/-pub95f60b90"><span class="material-icons">
+                call
+                </span>비대면 전화주문 서비스</a></li>
+            <li><a href="https://www.ikea.com/kr/ko/campaigns/ikea-pubfed0a960?itm_campaign=bestseller&itm_element=topbanner&itm_content=homepage"><span class="material-icons">
+                shopping_basket
+                </span>IKEA 베스트셀러</a></li>
+        </ul>
+    </div>
+<header>
+    <div class="header--">
+        <div id="btn--open" class="material-icons">
+            menu
+        </div>
+        <div class="logo">
+            <a href="/">
+                <img src="https://www.ikea.com/kr/ko/static/ikea-logo.f88b07ceb5a8c356b7a0fdcc9a563d63.svg" alt="IKEA" />
+            </a>
+        </div>
+        <ul class="h-menu">
+            <li>
+                <a href="https://www.ikea.com/kr/ko/cat/products-products/" class="hm-link" data-index="0" data-products-link>모든제품</a>
+            </li>
+            <li>
+                <a href="https://www.ikea.com/kr/ko/rooms/" class="hm-link" data-index="1">디지털 쇼룸</a>
+            </li>
+        </ul>
+        <div class="search">
+            <span class="material-icons" id="search">
+                search
+            </span>
+            <input id="search__box" placeholder="검색어 입력" />
+            <span class="material-icons" id="camera">
+                photo_camera
+                </span>
+        </div>
+        <div class="icons">
+            <ul>
+                <li>
+                    <a href="https://www.ikea.com/kr/ko/customer-service/track-manage-order/"><span class="material-icons">
+                        local_shipping
+                        </span></a>
+                </li>
+                <li>
+                    <a href="https://www.ikea.com/kr/ko/profile/"><span class="material-icons">
+                        person
+                        </span></a>
+                </li>
+                <li>
+                    <a href="https://www.ikea.com/kr/ko/favourites/"><span class="material-icons">
+                        favorite_border
+                        </span></a>
+                </li>
+                <li>
+                    <a href="https://www.ikea.com/kr/ko/shoppingcart/"><span class="material-icons">
+                        shopping_basket
+                        </span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="main-image">
+        <img src="https://www.ikea.com/images/14/e6/14e6b4b2c22a05e192313f7937edd8a5.jpg?f=xxl" alt="main image">
+    </div>
+    <div class="promotion">
+        <p class="line-1">설레는 우리집, 거실가구 및 액새서리 최대 15% 할인</p>
+        <p class="line-2">지금 IKEA의 거실가구 및 액세서리를 최대 15% 할인된 가격으로 만나보세요! 전국 어디서나 가구 배송비 39000원의 합리적인 혜택도 지금 같이 만나볼 수 있습니다(제주도 제외).</p>
+    <button class="look-btn"><a href="https://www.ikea.com/kr/ko/offers/?itm_campaign=5a5m_Livingroom&itm_element=mb&itm_content=Homepage">지금 할인 받기</a></button>
+    </div>
+</section>
+<section id="event">
+    <div class="ongoing-events">
+        <p>진행 중인 이벤트 및 프로모션</p>
+        <div class="events-grid-layout">
+            <div class="event-1"> 
+                <img src="https://www.ikea.com/images/-14d6a1f5bc5726e4284ec9bb565da4ec.jpg?f=xl" alt="배송비 할인 이미지" />
+                <div class="event-1-detail">
+                    <a href="https://www.ikea.com/kr/ko/offers/?itm_campaign=fy21deli&itm_element=sb&itm_content=homepage#82a35d61-9b52-11eb-a8c0-ed66bc3d9a09">
+                        <p class="line-1">설레는 우리집, 전국 어디서나 가구 배송비 ￦39,000</p>
+                        <p class="line-2">3월 31일부터 5월 31일까지 최대 ￦20,000 할인된 가구 배송비로 합리적인 쇼핑을 즐겨보세요!</p>
+                        <span class="material-icons" id="first-arrow">
+                            arrow_forward
+                            </span>
+                    </a>
+                </div>
+            </div>
+            <div class="event-2">
+                <img src="https://www.ikea.com/images/-5e7e70403b6a30853d288fb38d456f9a.jpg?f=xxl" alt="마당의 야외조명" />
+                <div class="event-2-detail">
+                    <a href="https://www.ikea.com/kr/ko/cat/yaoeyong-jepum-od001/">
+                        <p class="line-1">바깥 공기가 반가워지는 계절</p>
+                        <p class="line-2">다양한 아웃도어 제품으로 야외 공간을 안락하게 꾸며보세요.</p>
+                        <span class="material-icons" id="second-arrow">
+                            arrow_forward
+                            </span>
+                    </a>
+                </div>
+            </div>
+            <div class="event-3">
+                <img src="https://www.ikea.com/images/07/ff/07ff5cf99039bd69f0f7c04d8b98e196.jpg?f=xl" alt="IKEA lab 성수" />
+                <div class="event-3-detail">
+                    <a href="https://sustainability.ikea.kr/ko/lab?itm_campaign=ikealab_reboost&itm_element=sb&itm_content=homepage#ruti">
+                        <p class="line-1">새로워진 IKEA Lab 성수</p>
+                        <p class="line-2">더욱 다양해진 지속가능한 이벤트와 새로운 루티의 집을 경험해 보세요!</p>
+                        <span class="material-icons" id="third-arrow">
+                            arrow_forward
+                            </span>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section> 
+    <div class="recommendations">
+        <p>추천 제품</p>
+        <div class="r-products">
+            <div>
+                <a href="https://www.ikea.com/kr/ko/p/nikkeby-chest-of-4-drawers-grey-green-10439463/">
+                    <img src="https://www.ikea.com/kr/ko/images/products/nikkeby-chest-of-4-drawers-grey-green__0729238_pe738502_s5.jpg?f=xxs" alt="4칸 서랍장" />
+                </a>
+                <div class="product-detail">
+                    <p class="promo-cost">더 낮은 새로운 가격</p>
+                    <p class="product-name">NIKKEBY 니케뷔</p>
+                    <p>4칸서랍장, 84x70 cm</p>
+                    <p><strike>￦99,900</strike></p>
+                    <p>￦89,900</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                </div>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/p/melltorp-table-white-s89246372/">
+                    <img src="https://www.ikea.com/kr/ko/images/products/melltorp-table-white__0870808_pe716735_s5.jpg?f=xxs" alt="테이블" />
+                </a>
+                <div class="product-detail">
+                    <p class="promo-cost">더 낮은 새로운 가격</p>
+                    <p class="product-name">MELLTORP 멜토르프</p>
+                    <p>테이블, 화이트125x75 cm</p>
+                    <p><strike>￦69,900</strike></p>
+                    <p>￦59,900</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                </div>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/p/linnmon-adils-table-white-s09246408/">
+                    <img src="https://www.ikea.com/kr/ko/images/products/linnmon-adils-table-white__0737165_pe740925_s5.jpg?f=sg" alt="테이블" />
+                </a>
+                <div class="product-detail">
+                
+                    <p class="product-name">LINNMON 린몬 / ADILS 아딜스</p>
+                    <p>테이블, 화이트100x60 cm</p>
+                    <p>￦35,000</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                </div>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/p/kleppstad-wardrobe-with-3-doors-white-80441759/">
+                    <img src="https://www.ikea.com/kr/ko/images/products/kleppstad-wardrobe-with-3-doors-white__0753597_pe748785_s5.jpg?f=m" alt="선반유닛" />
+                </a>
+                <div class="product-detail">
+                    
+                    <p class="product-name">KLEPPSTAD 클렙스타드</p>
+                    <p>옷장+도어3, 화이트117x176 cm</p>
+                    
+                    <p>￦169,900</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                </div>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/p/hyllis-shelving-unit-in-outdoor-80278579/">
+                    <img src="https://www.ikea.com/kr/ko/images/products/hyllis-shelving-unit-in-outdoor__0911653_pe616502_s5.jpg?f=m" alt="옷장+도어" />
+                </a>
+                <div class="product-detail">
+                  
+                    <p class="product-name">HYLLIS 휠리스</p>
+                    <p>선반유닛, 실내외겸용60x27x140 cm</p>
+                
+                    <p>￦15,000</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                </div>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/p/angersby-2-seat-sofa-knisa-light-grey-80457118/">
+                    <img src="https://www.ikea.com/kr/ko/images/products/angersby-2-seat-sofa-knisa-light-grey__0944427_pe797252_s5.jpg?f=xxs" alt="2인용 소파"/>
+                </a>
+                <div class="product-detail">
+                    
+                    <p class="product-name">ANGERSBY 앙에르스뷔</p>
+                    <p>2인용소파, 크니사 라이트그레이</p>
+                    
+                    <p>￦149,000</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                </div>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/p/fejka-artificial-potted-plant-in-outdoor-hanging-40349545/">
+                    <img src="https://www.ikea.com/kr/ko/images/products/fejka-artificial-potted-plant-in-outdoor-hanging__0748531_pe745054_s5.jpg?f=sg" alt="인조식물" />
+                </a>
+                <div class="product-detail">
+                    
+                    <p class="product-name">FEJKA 페이카</p>
+                    <p>인조식물, 실내외겸용/걸이형9 cm</p>
+    
+                    <p>￦7,900</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                </div>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/p/raskog-trolley-white-70376721/">
+                    <img src="https://www.ikea.com/kr/ko/images/products/raskog-trolley-white__0870535_pe644566_s5.jpg?f=xxs" alt="미니 카트" />
+                </a>
+                <div class="product-detail">
+                    
+                    <p class="product-name">RÅSKOG 로스코그</p>
+                    <p>카트, 화이트35x45x78 cm</p>
+                    
+                    <p>￦34,900</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                </div>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/p/helmer-drawer-unit-on-castors-white-90251046/">
+                    <img src="https://www.ikea.com/kr/ko/images/products/helmer-drawer-unit-on-castors-white__0832764_ph166181_s5.jpg?f=xxs" alt="이동식서랍유닛" />
+                </a>
+                <div class="product-detail">
+        
+                    <p class="product-name">HELMER 헬메르</p>
+                    <p>이동식서랍유닛, 화이트28x69 cm</p>
+                    
+                    <p>￦29,900</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                </div>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/p/billy-bookcase-white-10351568/">
+                    <img src="https://www.ikea.com/kr/ko/images/products/billy-bookcase-white__0394567_pe561390_s5.jpg?f=sg" alt="책장" />
+                </a>
+                <div class="product-detail">
+                    
+                    <p class="product-name">BILLY 빌리</p>
+                    <p>책장, 화이트80x28x202 cm</p>
+                    <p>￦79,900</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="newProducts">
+        <div class="newProducts-detail">
+            <p>신제품을 만나보세요<button class="look-btn-2"><a href="https://www.ikea.com/kr/ko/new/">신제품 보러가기</a></button></p>
+        </div>
+        <div class="n-products">
+            <div>
+                <a href="https://www.ikea.com/kr/ko/p/borgeby-coffee-table-birch-veneer-70449402/">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/6af9f8a7cf97bb74/original/PH177073.jpg?f=xxs" alt="스파분위기의 화장실" />
+                </a>
+            </div>
+            <div>
+                <img src="https://www.ikea.com/ext/ingkadam/m/1a767cc037172b87/original/PH177077.jpg?f=xxxl" alt="선반과 조명" />
+            </div>
+        </div>
+    </div>
+</section>
+<section id="bathroom-main">
+    <div class="bathroom">
+        <p class="line-1">자연에 있는 것 같은 스파 분위기를 만들어보세요</p>
+        <p class="line-2">특별한 스파 분위기는 내 화장실의 크기에 상관없이 연출할 수 있습니다.
+            <button class="look-btn-3"><a href="https://www.ikea.com/kr/ko/cat/yogsil-ba001/">욕실용품 보러가기</a></button>
+        </p>
+    </div>
+    <div class="b-products">
+        <div>
+            <a href="https://www.ikea.com/kr/ko/p/fejka-artificial-potted-plant-in-outdoor-hanging-40349545/">
+                <img src="https://www.ikea.com/ext/ingkadam/m/f6b3addf8198922/original/PH176897-crop001.jpg?f=xxs" alt="화장실 용품" />
+            </a>
+        </div>
+        <div>
+            <a href="https://www.ikea.com/kr/ko/p/lillasjoen-knob-30477963/">
+                <img src="https://www.ikea.com/ext/ingkadam/m/730ca669dfefce6e/original/PH176895-crop001.jpg?f=xxs" alt="화장실 용품" />
+            </a>
+        </div>
+    </div>
+</section>
+<section id="solution">
+    <div class="sustainable-s">
+        <p>지속가능한 내일을 위한 솔루션</p>
+    </div>
+    <div class="sustainable-s-detail">
+        <div>
+            <a href="https://www.ikea.com/kr/ko/product-guides/sustainable-products/"><p>집에서 지속가능한 생활<br>을 실천할 수 있는 아이디<br>어</p>
+                <button class="material-icons" id="fourth-arrow">
+                    arrow_forward
+                    </button>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.ikea.com/kr/ko/campaigns/-pub937fa819">
+                <img src="https://www.ikea.com/images/fd/a7/fda7b18b19a76da56e0dbcdeda5b4f7b.jpg?f=xxl" alt="실천하기" />
+                <button class="look-btn-6"><a href="https://www.ikea.com/kr/ko/campaigns/-pub937fa819">응원해요! 당신의 작은 실천</a></button>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.ikea.com/kr/ko/product-guides/sustainable-products/saving-water/">
+                <img src="https://www.ikea.com/images/tartsmet-glypen-f858ed7c6797c35c437b2ee9ea8144be.jpg?f=xl" alt="물 아끼기" />
+                <button class="look-btn-7"><a href="https://www.ikea.com/kr/ko/product-guides/sustainable-products/saving-water/">물 아끼기</a></button>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.ikea.com/kr/ko/product-guides/sustainable-products/saving-energy/">
+                <img src="https://www.ikea.com/images/-12bddc4edf8c10bd339a8a993cd78aa8.jpg?f=xxxl" alt="에너지 아끼기" />
+                <button class="look-btn-8"><a href="https://www.ikea.com/kr/ko/product-guides/sustainable-products/saving-energy/">에너지 아끼기</a></button>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.ikea.com/kr/ko/product-guides/sustainable-products/healthy-homes/">
+                <img src="https://www.ikea.com/images/rosenskaerm-74fafb5c3e66045c5fcdc7c0b82dbd22.jpg?f=xl" alt="사람이 누워있는 사진" />
+                <button class="look-btn-9"><a href="https://www.ikea.com/kr/ko/product-guides/sustainable-products/healthy-homes/">건강한 집</a></button>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.ikea.com/kr/ko/product-guides/sustainable-products/reducing-waste/">
+                <img src="https://www.ikea.com/images/sortera-2368d19be345419ccdc30ffe6df5a51a.jpg?f=l" alt="쓰레기통에 쓰레기가 꽉 차있는 사진" />
+                <button class="look-btn-10"><a href="https://www.ikea.com/kr/ko/product-guides/sustainable-products/reducing-waste/">쓰레기 줄이기</a></button>
+            </a>
+        </div>
+    </div>
+</section>
+<section id="catalog">
+    <div class="catalog-and-food">
+        <div>
+            <a href="https://www.ikea.com/kr/ko/customer-service/catalogues/?itm_campaign=catalogue&itm_element=essential_banner&itm_content=catalogue">
+                <img src="https://www.ikea.com/images/0a/3c/0a3caefd2ed7e92bc5a4656b06e8ae30.jpg?f=l" alt="2021 카탈로그" />
+            </a>
+            <button class="look-btn-4"><a href="https://www.ikea.com/kr/ko/customer-service/catalogues/?itm_campaign=catalogue&itm_element=essential_banner&itm_content=catalogue">2021 카탈로그</a></button>
+        </div>
+        <div>
+            <a href="https://www.ikea.com/kr/ko/stores/restaurant/?itm_campaign=ikea_food&itm_element=essential_banner&itm_content=ikea_food">
+                <img src="https://www.ikea.com/images/27/b9/27b97d64eee6cc4eec70fe0d6c5e3d1c.jpg?f=l" alt="IKEA 푸드" />
+            </a>
+            <button class="look-btn-5"><a href="https://www.ikea.com/kr/ko/stores/restaurant/?itm_campaign=ikea_food&itm_element=essential_banner&itm_content=ikea_food">IKEA 푸드</a></button>
+        </div>
+    </div>
+    <div class="services">
+        <div>
+            <span class="material-icons">
+                local_shipping
+                </span>
+            <p class="line-1">배송 서비스</p>
+            <p class="line-2">편리한 배송 옵션을 살펴보세요.</p>
+            <p class="line-3"><a href="https://www.ikea.com/kr/ko/customer-service/services/delivery/">더 보기</a></p>
+        </div>
+        <div>
+            <span class="material-icons">
+                hardware
+                </span>
+            <p class="line-1">조립 서비스</p>
+            <p class="line-2">IKEA에게 조립을 맡기고 소중한 시간을 아끼세요.</p>
+            <p class="line-3"><a href="https://www.ikea.com/kr/ko/customer-service/services/assembly/">더 보기</a></p>
+        </div>
+        <div>
+            <span class="material-icons">
+                corporate_fare
+                </span>
+                <p class="line-1">매장 픽업 서비스</p>
+                <p class="line-2">온라인에서 주문하고 원하시는 매장에서 바로 픽업하세요.</p>
+                <p class="line-3"><a href="https://www.ikea.com/kr/ko/customer-service/services/click-collect/">더 보기</a></p>
+        </div>
+    </div>
+</section>
+<section id="homefurnishing-ideas">
+    <div class="homefurnishing">
+        <p>홈 퍼니싱 아이디어 더 보기</p>
+    </div>
+    <div class="options">
+        <button class="btn-options">침실</button>
+        <button class="btn-options">거실</button>
+        <button class="btn-options">주방</button>
+        <button class="btn-options">홈오피스</button>
+        <button class="btn-options">아웃도어</button>
+        <button class="btn-options">욕실</button>
+        <button class="btn-options">어린이 IKEA</button>
+        <button class="btn-options">다이닝</button>
+        <button class="btn-options">현관</button>
+        <button class="btn-options">소품</button>
+    </div>
+    <div class="home-ideas">
+        <div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/ideas/nolihadeus-jaemiissge-seolcihaneun-seonban-rec10ezfkaw">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/da93b9d33be3616/original/PH170716-crop001.jpg?f=xs" alt="책꽂이" />
+                </a>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/ideas/gansig-sigan-rec3r9enqbj">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/220bdb0185eccfc9/original/PH160511-crop002.jpg?f=xxl" alt="서랍장" />
+                </a>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/ideas/jisogganeunghan-sunabhameuro-jeongrihagi-recgcp6k25a">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/147325d7e6d1b796/original/PH157616-crop001.jpg?f=xxxl" alt="수납함" />
+                </a>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/ideas/seutailrisihan-manneung-sunabham-recba2snil8">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/1bf7ef9fd7e11889/original/PH163850-crop001.jpg?f=xxl" alt="수납장" />
+                </a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/ideas/seobingguyeogeul-balghineun-jomyeong-rec2pxvbb9c">
+                    <img id="glass" src="https://www.ikea.com/ext/ingkadam/m/234d87d49545a146/original/PH168890-crop001.jpg?f=xxl" alt="와인잔" />
+                </a>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/ideas/aideulceoreom-balgeun-jomyeong-recew9b0cgx">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/4c2a58f77a0b1d29/original/PH161725-crop001.jpg?f=xl" alt="연필모양 조명" />
+                </a>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/ideas/jagjiman-gangryeoghan-sunab-rec81b899p9">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/64ab2512fc890b7e/original/PH162796-crop001.jpg?f=xl" alt="욕실 용품" />
+                </a>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/ideas/jayeoni-hamggehaneun-jib-recnvgoaf5x">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/c40ba9080072e30/original/PH160789-crop001.jpg?f=xxl" alt="실내 장식용 녹색 화초" /> 
+                </a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/ideas/ilyoil-bameul-wihayeo-recny95540g">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/3b472be8097d632b/original/PH155469-crop001.jpg?f=l" alt="와인 잔 모양의 유리잔" />
+                </a>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/ideas/sunganeul-yeongweonhi-rec8w0z9jen">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/643e52662c676af5/original/PH171522.jpg?f=xxxl" alt="화이트 스틸" />
+                </a>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/ideas/cado-masigo-mojongdo-kiugo-recbckn6e9n">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/1155b6d8ae404e8e/original/PH167736-crop001.jpg?f=xl" alt="화이트 장석자기" />
+                </a>
+            </div>
+            <div>
+                <a href="https://www.ikea.com/kr/ko/ideas/ganpyeonhago-pogeunhan-seutailro-guseonghagi-rec0pi3lyeu">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/54eebf8463f4caef/original/PH159276-crop001.jpg?f=l" alt="스트라이프 패턴의 쿠션" />
+                </a>
+            </div>
+        </div>
+        
+    </div>
+    <button>12개 더보기</button>
+</section>
+<section>
+    <div class="last">
+        <div>
+            <img src="https://www.ikea.com/images/19/fa/19fa59a25c68191571feac7e249a7110.jpg?f=l" alt="아기 턱받이" />
+            <button class="look-btn-4"><a href="">제품리콜</a></button>
+        </div>
+        <div>
+            <img src="https://www.ikea.com/images/15/06/15067ecbac52a280cfc31e2d2c3a25af.jpg?f=xxl" alt="아기 턱받이 광고" />
+            <button class="look-btn-5"><a href="https://www.ikea.com/kr/ko/stores/restaurant/?itm_campaign=ikea_food&itm_element=essential_banner&itm_content=ikea_food">안전사고 예방방법</a></button>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer-primary">
+        <div class="ikea-family">
+        <p>IKEA Family</p>
+        <p id="ikea-family-promotion">지금 IKEA Family에 무료로 가입하고<br>
+        다양한 멤버 전용 혜택을 누리세요. <a href="https://www.ikea.com/kr/ko/ikea-family/">자세히보기</a></p>
+        <button id="enroll-btn"><a href="https://www.ikea.com/kr/ko/profile/signup/family/">IKEA Family 가입하기</a></button>
+    </div>
+        <ul class="categories">
+            <li class="category">
+            고객문의
+                <ul>
+                    <li><a href="https://www.ikea.com/kr/ko/customer-service/">고객지원</a></li>
+                    <li><a href="https://www.ikea.com/kr/ko/customer-service/faq/">자주 묻는 질문</a></li>
+                    <li><a href="https://www.ikea.com/kr/ko/customer-service/contact-us/">문의하기</a></li>
+                    <li><a href="https://www.ikea.com/kr/ko/customer-service/track-manage-order/">배송조회</a></li>
+                    <li><a href="https://www.ikea.com/kr/ko/customer-service/returns-claims/">교환환불</a></li>
+                    <li><a href="https://www.ikea.com/kr/ko/customer-service/returns-claims/guarantee/">품질보증</a></li>
+                    <li><a href="https://www.ikea.com/kr/ko/customer-service/product-support/recalls/">제품리콜</a></li>
+                    <li><a href="https://www.ikea.com/kr/ko/customer-service/product-support/buying-guides/">제품 구매 가이드</a></li>
+                    <li><a href="https://www.ikea.com/kr/ko/customer-service/services/ikea-pub6e06e990">피드백</a></li>
+                </ul>
+            </li>
+            <li class="category">
+            쇼핑하기
+            <ul>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/shopping-at-ikea/">쇼핑하기</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/services/-pub57f172e0">전화주문</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/ikea-business/">IKEA for Business</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/planners/">셀프 플래닝</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/mobile-apps/">IKEA 모바일 앱</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/catalogues/">IKEA 카탈로그</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/product-guides/">제품 사용 팁/가이드</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/services/finance-options/">결제 옵션</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/giftcard-pub69632499-pub351d37c0">기프트 카드</a></li>
+            </ul>
+            </li>
+            <li class="category">
+            서비스
+            <ul>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/services/">IKEA 서비스</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/services/delivery/">배송 서비스</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/services/assembly/">조립 서비스</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/services/kitchen-planning/">주방 서비스</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/services/-pub8bf4e5b0">욕실 서비스</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/services/planning-consultation/">홈퍼니싱 플래닝 서비스</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/services/-pubaaff4c30">인테리어 디자인 서비스</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/services/click-collect/">매장 픽업 서비스</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/customer-service/services/buy-back-resell/">바이백 서비스</a></li>
+            </ul>
+            </li>
+            <li class="category">
+            IKEA 이야기
+            <ul>
+                <li><a href="https://www.ikea.com/kr/ko/this-is-ikea/about-us/">기업 소개</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/this-is-ikea/design/">데모크래틱 디자인</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/this-is-ikea/sustainable-everyday/">지속가능한 생활</a></li>
+                <li><a href="https://www.ikea.com/kr/ko/this-is-ikea/newsroom/">뉴스</a></li>
+                <li><a href="https://ikea.avature.net/ko_KR/External">채용정보</a></li>
+            </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-icons">
+        <ul class="footer-social-media">
+        <li><a href="https://www.facebook.com/IKEA.kr/"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/ikeakr/"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCvt32qJUh606U-W_hr-EF7A"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+        <div class="country-language">
+        <div class="material-icons">
+            <i class="fas fa-globe-americas"></i>
+            <p><a href="https://www.ikea.com/">국가변경</a></p>
+            </div>
+            <select name="language" id="language">
+            <option value="korean">한국어</option>
+            <option value="english">영어</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="footer-secondary">
+        <div class="footer-secondary-left">
+        <p>&copy; Inter IKEA Systems B.V 1999-2021<br></p>
+        <p>
+            IKEA 코리아<br />
+            주소: (우) 14352 경기도 광명시 일직로 17 IKEA광명점<br />
+            사업자 등록번호: 106-86-82871 <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1068682871">사업자정보확인</a><br> 대표자 :
+            프레드릭 요한손<br />
+            통신판매업 신고 : 2018-경기광명-0209<br />
+            TEL : 1670-4532<br />
+        </p>
+        
+        </div>
+        <div class="footer-secondary-right">
+        <ul>
+            <li><a href="https://www.ikea.com/kr/ko/customer-service/privacy-policy/"><small>개인정보처리방침</small></a></li>
+            <li><a href="https://www.ikea.com/kr/ko/customer-service/terms-conditions/"><small>웹사이트 이용약관</small></a></li>
+            <li><a href="https://www.ikea.com/kr/ko/customer-service/responsible-disclosure/"><small>Responsible disclosure</small></a></li>
+        </ul>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
